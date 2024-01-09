@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+/* header */
+header{
+    text-align: center;
+    padding: 1rem;
+}
+header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+li{
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+li:hover{
+    cursor: pointer;
+}
+
+/* wallpaper */
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
