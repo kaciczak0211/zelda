@@ -131,6 +131,19 @@ img{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+/* snippets, game rules */
+.snippets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    gap: 2rem;
+}
+.snippets h2{
+    color: #a38a58;
+}
 /* font-sizes */
 h1{
     text-align: center;
@@ -149,6 +162,14 @@ h2{
 h3{
     font-weight: 100;
 }
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white; /* Change the color and size as needed */
+  }
 
 @media only screen and (max-width: 768px) {
     /* navigation */
